@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.regler-image {
+    align-items: center !important;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    color: blue !important;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+small {
+    color: orange;
+}
+
+div.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 5;
+    /* margin-top: 50px 0; */
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/736x/6b/9d/59/6b9d59bd25c70379cf1df7afc92b6dc2.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.sections div.sectionChild {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+
+/* carte img */
+
+.carte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.card {
+    width: 18rem;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform .4s ease;
+}
+
+.card:hover img {
+    transform: scale(1.08);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.card-text {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* ecran de notre site pour android */
+
+@media screen and(max-width=760px) {
+    .nav.navcolor {
+        width: 765px;
+    }
+    div.playimage img {
+        width: 100px;
+    }
+    div.sections div.sectionChild {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+
+/* redimensionner mon image */
+
+.playimage img {
+    width: 200px;
+}
+
+
+/* footer */
+
+.piedPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    background: black;
+    height: 100%;
+    width: 100%;
+    gap: 4px;
+    padding-top: 20px;
+}
+
+.piedPage img {
+    width: 150px;
+}
+
+
+/* texte */
+
+div.firstchild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texte p {
+    color: #fff;
+}
+
+.texte .texteTitle {
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contactpage h6 {
+    color: white;
+    align-items: center;
+}
+
+
+/* error message */
+
+.message {
+    font-size: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: red;
+}
+
+div.imageError {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* modal */
+
+#modal {
+    display: none;
+}
+
+#modal.active {
+    display: flex;
+}
+
+
+/* message pour le formulaire de commande */
+
+p.formeMessage {
+    text-align: center;
+    margin-top: 30px;
+}

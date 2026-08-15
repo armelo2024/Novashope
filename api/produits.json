@@ -1,0 +1,87 @@
+[
+
+    {
+        "id": 1,
+        "name": "samsung Galaxi s25",
+        "description": "Smartphone",
+        "price": 50000,
+        "image": "https://m.media-amazon.com/images/I/61D2QqQKV8L._AC_UF1000,1000_QL80_.jpg",
+        "category": "telephone",
+        "stock": 3
+    },
+
+    {
+
+        "id": 2,
+        "name": "iPhone 16",
+        "description": "Dernière génération d'iPhone",
+        "price": 30000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRScjWcLUZxJXb8Jr_ws2iQC3ujX1AQiOSLdM8J1nHqb0gFIcNu6GzqYH8&s=10",
+
+        "category": "telephone",
+        "stock": 2
+    },
+
+    {
+        "id": 3,
+        "name": "HP Notebook",
+        "description": "Dernière génération Hp",
+        "price": 100000,
+        "image": "https://media.ldlc.com/ld/categories/thumbnails/4265.jpg",
+
+        "category": "ordinateur",
+        "stock": 4
+    },
+
+    {
+        "id": 4,
+        "name": "Ps5",
+        "description": "playstation 5 edition standard",
+        "price": 430000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzS4SDwuxVbM4un7bYZvSurdER-qeXHzUgMKscoW7dkQ&s=10",
+
+        "category": "electronic",
+        "stock": 3
+    },
+    {
+        "id": 5,
+        "name": "ilux 32",
+        "description": "nouveau model disponible",
+        "price": 159000,
+        "image": "https://ci.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/54/022652/1.jpg?5454",
+
+        "category": "electronic",
+        "stock": 6
+    },
+    {
+        "id": 6,
+        "name": "Samsung BN59-01358B",
+        "description": "une commande a vos dispositions pour une navigation flude",
+        "price": 3000,
+        "image": "https://interlook.eu/hpeciai/1088b6e799560e360cc097a505ab11ec/fre_pl_BN59-01301A-Telecommande-universelle-pour-SAMSUNG-TV-Prise-en-charge-du-televiseur-SMART-3099_1.jpg",
+
+        "category": "electronic",
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "name": "Hisense Refrigerateur",
+        "description": "une commande a vos dispositions pour une navigation flude",
+        "price": 120000,
+        "image": "https://sociam.ci/gestion/products/e5515947-8e1e-4f9c-a423-683a3a2832f7.webp",
+
+        "category": "electronic",
+        "stock": 1
+    },
+    {
+        "id": 8,
+        "name": "Homcom Mini Ventilateur",
+        "description": "une commande a vos dispositions pour une navigation flude",
+        "price": 5000,
+        "image": "https://m.media-amazon.com/images/I/71a59QhggaL.jpg",
+
+        "category": "electronic",
+        "stock": 9
+    }
+
+]
